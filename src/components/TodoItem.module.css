@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin: 10px 0;
+  padding: 8px;
+  cursor: pointer;
+  color: #555843;
+}
+
+.checkIcon {
+  font-size: 24px;
+  margin-right: 12px;
+  cursor: pointer;
+  min-width: max-content;
+}
+.checkIcon + span {
+  line-height: 1.2;
+  display: block;
+  color: #555843;
+  font-weight: 400;
+}
+.checkedCircleIcon {
+  color: #32cd32;
+}
+.checkedCircleIcon + span {
+  text-decoration: line-through;
+  color: #a3a3a3;
+}
+.unCheckedCircleIcon {
+  color: #c0c0c0;
+}
+.removedIcon {
+  font-size: 26px;
+  margin-right: 12px;
+  visibility: hidden;
+  cursor: pointer;
+  margin-left: auto;
+  color: #555843;
+}
+.container:hover {
+  background-color: #faf5d9;
+  transition: background-color 0s;
+}
+.container:hover .removedIcon {
+  visibility: visible;
+}

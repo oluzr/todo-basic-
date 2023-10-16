@@ -1,0 +1,11 @@
+.headerTitle {
+  font-size: 23px;
+  font-weight: 500;
+  margin-bottom: 18px;
+  color: #555843;
+}
+.todoCount {
+  color: #32cd32;
+  background-color: inherit;
+}
+

@@ -1,0 +1,14 @@
+#root{
+  display: flex;
+  justify-content: center;
+}
+.App{
+  background-color: #F5EEC8;
+  min-width: 400px;
+
+  padding: 32px;
+  border-radius: 16px;
+  margin-top: 32px;
+  /* box-shadow: rgba(0, 0, 0, 0.026) 0 0 10px; */
+  max-width: 80vw;
+}

@@ -1,0 +1,17 @@
+.ulContainer{
+  max-height: 60vh;
+  overflow-y: auto;
+}
+.ulContainer::-webkit-scrollbar {
+  width: 5px;  /* 스크롤바의 너비 */
+  overflow: hidden;
+}
+
+.ulContainer::-webkit-scrollbar-thumb {
+  height: 30%; /* 스크롤바의 길이 */
+  background: #A7D397; /* 스크롤바의 색상 */
+}
+
+.ulContainer::-webkit-scrollbar-track {
+  background: rgba(33, 122, 244, .05);  /*스크롤바 뒷 배경 색상*/
+}

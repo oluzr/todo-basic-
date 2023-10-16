@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+}
+
+.container > form {
+  display: flex;
+  flex: 1;
+}
+.container > form > button {
+  padding: 8px 15px;
+  background-color: #A7D397;
+  border: 1px solid #A7D397;
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+  font-weight: 500;
+  font-size: 17px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+form input {
+  outline-color: #555843;
+  flex: 1;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+  /* line-height: 30px; */
+  border: 3px solid #A7D397;
+  border-radius: 5px 0 0 5px;
+  color: #666666;
+  background-color: transparent;
+}
+form input::placeholder{
+  color: #a0a0a0;
+  font-size: 15px;
+  
+}
