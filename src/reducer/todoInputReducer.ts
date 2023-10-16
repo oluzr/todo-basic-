@@ -18,9 +18,11 @@ export const todoInputReducer = (
       return {
         text: action.payload,
       };
-    case "clear":
+    case "clear": {
+      state;
       return {
         text: "",
       };
+    }
   }
 };
