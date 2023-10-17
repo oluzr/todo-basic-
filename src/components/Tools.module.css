@@ -1,6 +1,6 @@
 .container{
   display: flex;
-  padding: 15px 5px;
+  padding: 14px 0px;
   justify-content: space-between;
   font-weight: 400;
   border-bottom: 1px dashed #D0D4CA;

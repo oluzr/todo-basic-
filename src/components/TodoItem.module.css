@@ -3,7 +3,7 @@
   align-items: center;
   font-size: 18px;
   margin: 10px 0;
-  padding: 8px;
+  padding: 8px 0;
   cursor: pointer;
   color: #555843;
   justify-content: flex-start;
@@ -34,10 +34,10 @@
 }
 .removedIcon {
   font-size: 26px;
-  margin-right: 12px;
+  
   visibility: hidden;
   cursor: pointer;
-  margin-left: auto;
+  /* margin-left: auto; */
   color: #555843;
 }
 @media screen and (max-width: 420px) {

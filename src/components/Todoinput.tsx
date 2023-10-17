@@ -28,7 +28,7 @@ const Todoinput = () => {
         <form onSubmit={handleSubmit}>
           <input
             type="text"
-            placeholder="Write down your to-do list"
+            placeholder="투두를 입력하세요"
             value={inputState.text}
             onChange={handleInputChange}
           />
