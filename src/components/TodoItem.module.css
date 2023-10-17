@@ -6,14 +6,14 @@
   padding: 8px 0;
   cursor: pointer;
   color: #555843;
-  justify-content: flex-start;
+  justify-content: space-between;
+
 }
 
 .checkIcon {
   font-size: 24px;
-  margin-right: 12px;
+  margin-right: 10px;
   cursor: pointer;
-  min-width: max-content;
 }
 .checkIcon + span {
   line-height: 1.2;
