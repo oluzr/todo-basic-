@@ -6,6 +6,7 @@
   padding: 8px;
   cursor: pointer;
   color: #555843;
+  justify-content: flex-start;
 }
 
 .checkIcon {
@@ -19,6 +20,7 @@
   display: block;
   color: #555843;
   font-weight: 400;
+  flex: 1;
 }
 .checkedCircleIcon {
   color: #32cd32;
@@ -37,6 +39,11 @@
   cursor: pointer;
   margin-left: auto;
   color: #555843;
+}
+@media screen and (max-width: 420px) {
+  .removedIcon{
+    visibility: visible;
+  }
 }
 .container:hover {
   background-color: #faf5d9;
